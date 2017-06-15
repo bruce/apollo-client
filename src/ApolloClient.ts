@@ -81,9 +81,8 @@ import {
 } from './data/proxy';
 
 import {
-  version,
+  version as version,
 } from './version';
-
 
 /**
  * This type defines a "selector" function that receives state from the Redux store
@@ -274,6 +273,7 @@ export default class ApolloClient implements DataProxy {
     }
 
     this.version = version;
+
   }
 
   /**
